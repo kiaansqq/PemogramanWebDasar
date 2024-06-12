@@ -22,7 +22,8 @@
     <!-- Header -->
     <nav class="navbar navbar-expand bg-primary navbar-dark">
       <div class="container-lg">
-        <a class="navbar-brand" href="#"><i class="bi bi-bootstrap-fill"></i> Navbar</a
+        <a class="navbar-brand" href="#"
+          ><i class="bi bi-bootstrap-fill"></i> Navbar</a
         >
         <button
           class="navbar-toggler"
@@ -129,11 +130,11 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link link-dark" href="menu1.html"
-                        > <i class="bi bi-database"></i></i> Data</a
+                        > <i class="bi bi-database"></i></i> Table</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-dark" href="menu2.html"><i class="bi bi-list"></i> Menu 2</a
+                      <a class="nav-link link-dark" href="menu2.html"> <i class="bi bi-list"></i></i>Menu 2</a
                       >
                     </li>
                     <li class="nav-item">
@@ -150,17 +151,6 @@
         <!-- end Sidebar Navigasi-->
 
         <!--Content-->
-        <div class="card mt-2" style="width: 18rem;">
-            <img src="kia.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Gojo Satoru</h5>
-              <p class="card-text">Is a prominent character in the</p>
-              <p>manga and anime series</p>
-              <p> "Jujutsu Kaisen"</p> 
-              <p>created by Gege Akutami.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
         <br>
         <br>
         <br>
@@ -181,17 +171,11 @@
         <br>
         <br>
         <br>
+
         <!--end Content-->
       </div>
-
-      <!-- Footer-->
-      <div class="text-center bg-light fixed-buttom py-2">
-        Copyright 2024 Saskia Nasqa Putri
-      </div>
-      <!-- end Footer -->
-
-      <!-- Modal -->
-      <div
+<!-- Modal -->
+<div
 class="modal fade modal-xl"
 id="exampleModal"
 tabindex="-1"
@@ -295,7 +279,7 @@ aria-hidden="true"
       if($('body').hasClass('dashboard-page')) {
         $('.nav-link[href="index.html"]').addClass('active');
       }else if($('body').hasClass('table-page')){
-        $('.nav-link[href="table.html"]').addClass('active');
+        $('.nav-link[href="menu1.html"]').addClass('active');
       }else if($('body').hasClass('table-page')){
         $('.nav-link[href="menu2.html"]').addClass('active');
       }
@@ -305,4 +289,10 @@ aria-hidden="true"
     });
   </script>
   </body>
+  
+      <!-- Footer-->
+      <footer><div class="text-center bg-light fixed-buttom py-2">
+        Copyright 2024 Saskia Nasqa Putri
+      </div></footer>
+      <!-- end Footer -->
 </html>
